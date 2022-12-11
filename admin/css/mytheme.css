@@ -1,0 +1,260 @@
+.row{
+    margin: 0 !important;
+}
+/*
+.btn{
+    padding: 0.375rem 10px;
+}
+*/
+
+.input-group-text{
+    padding: .375rem 5px;
+}
+a{
+    cursor: pointer;
+    color: #212529;
+}
+form{
+    width: 100%;
+}
+.no-flex{
+    display: block !important;
+}
+.modal-header{
+    background: #041414;
+    color: #c2c7d0;
+}
+.modal-title{
+    font-weight: bold !important;
+}
+.table-centered td, .table-centered th{
+    text-align: center;
+}
+.disabled{
+    opacity: 0.5;
+}
+.table th{
+    font-size: 14px;
+    background: #f8f9fa !important;
+}
+.table td{
+    font-size: 14px;
+    border: 1px solid #dee2e6;
+}
+.table td, .table th{
+    padding: 5px !important;
+}
+.sort th[data-col]{
+    cursor: pointer;
+    position: relative;
+    padding-right:30px !important;
+    padding-left:15px !important;
+}
+.sort th::before, .sort th::after{
+    position: absolute;
+    bottom: .35em;
+    display: block;
+    opacity: .3;
+}
+.sort th[data-col]::before{
+    right: 1.2em;
+    content: "↑";
+}
+.sort th[data-col]::after{
+    right: 0.5em;
+    content: "↓";
+}
+.sort th.desc::before{
+    opacity: 1;
+}
+.sort th.asc::after{
+    opacity: 1;
+}
+.fieldSearch{
+    width: 100%;
+}
+label{
+    font-weight: normal !important;
+}
+.form-inline label{
+    margin-right: 5px;
+}
+.modal-content{
+    background: white;
+}
+.modal-footer{
+    display: block !important;
+}
+.card{
+    box-shadow: none !important;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.nav-tabs{
+    width: 100%;
+}
+.nav-tabs + .card{
+    border-top: none;
+}
+.col-form-label{
+    text-align: right;
+}
+textarea.form-control{
+    height: 6rem;
+}
+.brand-link{
+    padding:1.3rem .5rem;
+    border:none !important;
+}
+.nav-link .fa, .nav-link .fas, .nav-link .far{
+    margin-right: 5px;
+    width: 18px;
+}
+td.info{
+    background-color: #d9edf7;
+    border-color:white;
+}
+td.success{
+    background-color: #dff0d8;
+    border-color:white;
+}
+td.danger{
+    background-color: #f2dede;
+    border-color:white;
+}
+.asana td input{
+    border: 1px solid transparent;
+    background: transparent;
+    width: 100%;
+}
+.asana:hover td input{
+    border: 1px solid #dee2e6;
+    background: white;
+}
+.asana td input:hover{
+    border: 1px solid grey;
+    background: white;
+}
+.asana td input:focus{
+    border: 1px solid #ffffff !important;
+    background: white;
+}
+.asana.selected{
+    border: deepskyblue;
+}
+.asana.selected td{
+    background: #edf8ff;
+}
+tr.boton td{
+    cursor: pointer;
+    color: grey;
+}
+.btn-black{
+    color: white;
+    background: black;
+    border: solid 1px black;
+}
+.card-default > .card-header{
+    background: #f5f5f5;
+}
+.required:after {
+    content:"*";
+    color: red;
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+ }
+.oculto{
+    display: none;
+}
+
+.hundido {
+    /*border-top: 1px solid #BBB;*/
+    border-right: 1px solid #f5f5f5;
+    border-bottom: 1px solid #FFF;
+    border-left: 1px solid #f5f5f5;
+    background: #f5f5f5;
+}
+.card-default .nav-item:first-child .nav-link.active{
+    border-left: solid 1px #dee2e6 !important;
+}
+.btn-outline-secondary {
+    color: #6c757d;
+    border-color: #ced4da;
+}
+.select2-container{
+    width: 90% !important;
+}
+.select2-container--default .select2-selection--single {
+    height: 39px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    height: 39px !important;
+}
+.select2-container--default .select2-selection--single{
+    border-color: #ced4da !important;
+}
+.main-header a{
+    color: white !important;
+}
+#submenuTitular a{
+    color: black !important;
+}
+.content-wrapper{
+    overflow:auto;
+}
+.tb{
+    display: table;
+    width: 100%;
+}
+.tr{
+    display: table-row;
+}
+.thead{
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.colspan{
+
+    text-align: center;
+}
+.td,.th{
+    display: table-cell;
+    border: 1px solid #dee2e6;
+    padding: 5px 10px;
+}
+.th{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    background: #f8f9fa !important;
+}
+.tb-hover .tr:hover .td{
+    background: #f8f9fa !important;
+}
+.link{
+    margin: 3px;
+}
+tr.active td{
+    background: #fccd46;
+}
+.btn-xs.btn-action{
+    width: 24px;
+}
+.main-footer{
+    padding:15px !important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    background: none;
+    border:none;
+    color:black;
+}

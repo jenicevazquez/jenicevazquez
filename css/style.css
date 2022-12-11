@@ -1,0 +1,171 @@
+#shortcuts a {
+    width: 100%;
+    font-size: 14px;
+    background: #337ab7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.dropdown-apps{
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.2);
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 0 1px 2px 0 rgba(60,64,67,.30),0 2px 6px 2px rgba(60,64,67,.15);
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.30),0 2px 6px 2px rgba(60,64,67,.15);
+    /*height: 100%;*/
+    overflow-x: hidden;
+    padding-top: 0;
+    /*width: 280px;*/
+}
+.listSistemas{
+    box-sizing: content-box;
+    margin: 0;
+    /*padding: 10px 0 0 14px;*/
+    width: 100%;
+    min-height: 68px;
+}
+.listSistemas li{
+    display: inline-block;
+    height: 84px;
+    list-style-type: none;
+    padding: 6px;
+    position: relative;
+    transition: transform .2s cubic-bezier(.333,0,0,1);
+    vertical-align: top;
+    width: 84px;
+}
+.cuadroSistema p{
+    color: #202124;
+    display: inline-block;
+    font-family: 'Google Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    letter-spacing: .09px;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 76px;
+    margin: 0;
+}
+.cuadroSistema{
+    border-radius: 8px;
+    margin: 0;
+    outline: none;
+    /*float: left;*/
+    text-align: center;
+    text-decoration: none;
+    /*width: 84px;*/
+    padding: 10px 0;
+}
+.cuadroSistema:hover{
+    background: #dddddd;
+}
+#visor{
+    padding: 0 !important;
+}
+#visor .modal-dialog{
+    width:100% !important;
+    margin: 0;
+    height: 100%;
+
+}
+#visor .modal-header{
+    padding: 10px;
+    height: 75px;
+    background: #e5e5e5;
+}
+#visor .modal-header .image{
+    margin-right: 10px;
+}
+#visor .modal-header .img-circle{
+    width: 45px;
+    height: 45px;
+}
+#visor .modal-header .buttonn{
+    font-size: 34px;
+    margin: 10px 10px;
+}
+#visor .modal-body{
+    padding: 0;
+}
+#visor .modal-body iframe{
+    width: 100%;
+    height: 700px;
+    border: none;
+    /*background: #d1d1d1;*/
+}
+#tituloDocumento{
+    font-weight: bold;
+    margin-bottom: 2px;
+    font-size: 15px;
+    line-height: 17px;
+    color: #1d1c1d;
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#subtituloDocumento{
+    color: #a0a0a2;
+    font-size: 13px;
+    line-height: 15px;
+    width: 205px;
+}
+.expedientesubmenu{
+    padding-top: 10px;
+}
+.skin-blue .main-header .navbar {
+
+    background-color: transparent !important;
+
+}
+.main-header .logo{
+    font-weight: bold;
+}
+.barraDiasMes{
+    margin: 0;
+    padding: 0;
+}
+.barraDiasMes li{
+    float: left;
+    list-style: none;
+    width: 30px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    border: #cccccc 1px solid;
+    text-align: center;
+}
+.borde-derecho{
+    border-right: 1px solid #7777 !important;
+}
+body{
+    font-size: 12px !important;
+}
+tr.success th, tr.danger th, tr.info th, tr th{
+    background: #eeeeee !important;
+}
+.small-box h3{
+    font-size: 24px !important;
+}
+.btn-xs i{
+    margin: 0 !important;
+}
+.apuesta{
+    text-align: center;
+    font-size: 38px;
+    color: orange;
+}
+a.color{
+    color: mediumpurple;
+}
+a.tipo{
+    color: red;
+}
+a.mitad{
+    color: deepskyblue;
+}
+a.active{
+    background: yellow;
+}
+

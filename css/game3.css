@@ -1,0 +1,237 @@
+#tablero td{
+    font-weight: bold;
+    font-size: 24px;
+}
+.content-wrapper{
+    background-color:#1a1b1f !important;
+}
+.main{
+    width:480px;
+    margin: 0 auto;
+    text-align:center;
+    border: solid 1px black;
+    padding:10px;
+    border-radius:0px;
+    font-family:Arial;
+    background-color:#333642
+}
+input{
+    text-align:center;
+}
+.row2{
+    padding: 15px;
+    overflow:auto;
+    background-color:#1a1b1f;
+}
+.celda{
+    border: solid 1px white;
+    width:10%;
+    height:100px;
+    float:left;
+    text-align:center;
+    padding:25px;
+    font-size:36px;
+}
+#resp{
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+.col{
+    width:33%;
+    float:left;
+    text-align:left;
+}
+.letrero{
+    font-size:36px;
+    float:left;
+    width:100%;
+}
+.rachacontainer{
+    float:right;
+    color:gray;
+    font-size:12px;
+    padding-top:5px;
+}
+#racha{
+    width:20px;
+    margin-left:5px;
+}
+.resultadocontainer{
+    padding-bottom:0px;
+}
+#numerosJuego{
+    width:100%;
+    font-size:36px;
+    padding:10px;
+}
+.col-2{
+    width:40%;
+    float:left;
+    padding: 5px;
+}
+.sugerencia{
+    color:gray;
+    font-size:12px;
+    margin-top:5px
+}
+.sugAp{
+    color:#db0b0d;
+    font-weight:bold;
+    font-size:22px
+}
+
+.title2{
+    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    white-space: nowrap;
+    font-weight: bold;
+    color: #aaaebc;
+    margin: 0;
+    font-size: 1.3em;
+    vertical-align: middle;
+    text-align:left;
+}
+.title3{
+    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    white-space: nowrap;
+    color: orange;
+    margin: 2px 0;
+    vertical-align: middle;
+    text-align:left;
+    text-transform: uppercase;
+}
+#respApuesta{
+    padding:15px;
+}
+.resp0{
+    color: red;
+}
+.resp1{
+    color:green;
+}
+#info{
+    text-align:left;
+    font-size:12px;
+}
+.contResp{
+    padding-top:10px;
+    font-size:12px;
+}
+.gray{
+    color:gray;
+}
+.prediccionContainer{
+    font-size:12px;
+    padding:15px;
+}
+table{
+    width:100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid #ddd;
+}
+.foot{
+    padding:15px;
+}
+.contResp{
+    color: gray;
+}
+.contResp2{
+    color: gray;
+}
+.contResp3{
+    color: red;
+}
+.panel-dark{
+    border: none;
+    border-radius: 7px !important;
+}
+.panel-dark .panel-heading{
+    background: #333642;
+    border: none;
+    color: white;
+    border-radius: 5px 5px 0 0;
+    padding: 15px;
+}
+.panel-dark .panel-body{
+    padding: 0;
+    background: #1a1b1f;
+    border-radius: 0 0 5px 5px;
+}
+.sideright{
+    background:#333642;
+    padding: 0;
+}
+.nav-pills{
+    background: #1a1b1f;
+    color: #333642;
+}
+.btn-danger{
+    background-color: darkred !important;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover{
+    background: transparent;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
+    border-top-color: darkred;
+}
+body.dark .modal-content {
+    background-color: #1e2229;
+}
+
+body.dark .modal-content .modal-header,
+body.dark .modal-content .modal-footer {
+    border-color: #424242;
+}
+
+body.dark .form-control {
+    background-color: #282d36;
+    border-color: #282d36;
+}
+body.dark .modal-header .close {
+    color: #FFF;
+}
+.nav > li > a{
+    padding: 15px;
+}
+td,h3{
+    color: white;
+}
+.bordercard{
+    border: solid 1px #333642;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+}
+.titulo,.grafica{
+    text-align: center;
+    color: white;
+    border: solid 1px #333642;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.grafica{
+    margin-top: 15px;
+}
+.rojo2{
+    color: rgba(255, 99, 132, 1);
+}
+.morado{
+    color: rgba(153, 102, 255, 1);
+}
+.disabled{
+    opacity: 0.2;
+}
+.apuesta{
+    border: solid 3px gold !important;
+}
+.apostado{
+    border: solid 3px deepskyblue !important;
+}
+#tbBets td, #tbBets th{
+    font-size: 24px;
+}

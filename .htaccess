@@ -1,0 +1,42 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteEngine On
+
+    RewriteCond %{QUERY_STRING} ^([0-9]+)$ [NC,OR]
+    RewriteCond %{QUERY_STRING} ^(.*)\?([0-9]+)(.*)$ [NC,OR]
+    RewriteCond %{QUERY_STRING} ^([0-9]+\.[0-9])(.*)$ [NC,OR]
+    RewriteCond %{QUERY_STRING} ^(.*)\?([0-9]+\.[0-9])(.*)$ [NC]
+    RewriteRule ^(.*)$ http://%{REMOTE_ADDR} [L]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+</IfModule>
+SetOutputFilter DEFLATE
+Header unset ETag
+FileETag None
+
+<FilesMatch ".min.(js|css)$">
+Header set Cache-Control "max-age=31557600, public"
+</FilesMatch>
+
+<FilesMatch ".(js|css)?v=">
+Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
+<FilesMatch ".(png|gif|ico)$">
+Header set Cache-Control "max-age=604800, public, must-revalidate"
+</FilesMatch>
+
